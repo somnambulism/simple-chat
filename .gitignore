@@ -1,5 +1,8 @@
 *.py[cod]
 
+#project
+local_settings
+
 # vim
 *.swp
 
