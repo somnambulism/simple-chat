@@ -1,0 +1,11 @@
+Django==1.6
+MySQL-python==1.2.4
+South==0.8.4
+bson==0.3.3
+gevent==1.0
+greenlet==0.4.1
+ipython==1.1.0
+pyjade==2.0.3
+pytz==2013.8
+six==1.4.1
+wsgiref==0.1.2

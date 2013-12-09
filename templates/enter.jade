@@ -1,0 +1,11 @@
+{% if form.errors %}
+p.error Сожалеем, вы неправильно ввели логин или пароль
+{% endif %}
+form(action='.', method='post')
+    - csrf_token
+    label(for='username') Логин:
+    input#username(type='text', name='username', value='')
+    label(for='password') Пароль:
+    input#password(type='password', name='password', value='')
+    input(type='submit', value='login')
+    input(type='hidden', name='next', value='/chat/')
